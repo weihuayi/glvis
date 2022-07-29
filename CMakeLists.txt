@@ -292,7 +292,7 @@ if(NOT EMSCRIPTEN)
   set(CMAKE_INSTALL_RPATH "${MFEM_LIBRARY_DIR}" CACHE PATH "")
 
   add_executable(glvis-exe glvis.cpp)
-  set_target_properties(glvis-exe PROPERTIES OUTPUT_NAME glvis)
+  set_target_properties(glvis-exe PROPERTIES OUTPUT_NAME GLVis)
 
   target_link_libraries(glvis-exe PRIVATE glvis)
 
